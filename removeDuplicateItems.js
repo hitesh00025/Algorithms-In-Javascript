@@ -1,4 +1,4 @@
-function removeDuplicateChar(str) {
+function removeDuplicateItems(str) {
   var newArray = [];
   var object = {};
   var char;
@@ -13,4 +13,4 @@ function removeDuplicateChar(str) {
   }
   return newArray;
 }
-console.log(removeDuplicateChar(['a','a','s','f','d','f','f','d']));
+console.log(removeDuplicateItems('aasfdffd').join(''));
