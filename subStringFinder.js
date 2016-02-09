@@ -1,9 +1,5 @@
 function subStringFinder(str,subStr){
-
-//var patt = /+subStr+/;
-var result = str.indexOf(subStr);
-console.log(result)
-
+return str.indexOf(subStr);
 }
 
 console.log(subStringFinder('abbcdabbbbbck', 'bck'));
